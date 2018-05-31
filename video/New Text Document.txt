@@ -1,0 +1,5 @@
+
+ffmpeg -i 3.mp4 -c:v libx264 -preset slow -s 1024x576 -an -b:v 370K h3.mp4
+ffmpeg -i 4.mp4 -c:v libx264 -preset slow -s 1024x576 -an -b:v 370K h4.mp4
+ffmpeg -i 5.mp4 -c:v libx264 -preset slow -s 1024x576 -an -b:v 370K h5.mp4
+ffmpeg -i 6.mp4 -c:v libx264 -preset slow -s 1024x576 -an -b:v 370K h6.mp4
