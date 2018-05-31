@@ -40,8 +40,8 @@ if($id == $number)
      
     </p>
   </video>
-  <button <?php if($number <= 0) echo "hidden=true"; ?> ><a href="index.php?id=<?=($id-1)?>"><</a></button>
-  <button <?php if($number >= count($files) - 1)  echo "hidden=true"; ?>><a href="index.php?id=<?=($id+1);?>">></a></button>
+  <button <?php if($number <= 0) echo "hidden=true"; ?> ><a href="index.php?id=<?=($id-1)?>">&lt;</a></button>
+  <button <?php if($number >= count($files) - 1)  echo "hidden=true"; ?>><a href="index.php?id=<?=($id+1);?>">&gt;</a></button>
   <?php
   for($i = 0; $i < count($files); $i++)
   {
